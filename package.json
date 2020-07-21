@@ -1,0 +1,14 @@
+{
+  "name": "6fba393153c7dfcc",
+  "main": "6fba393153c7dfcc@707.js",
+  "version": "707.0.0",
+  "homepage": "https://observablehq.com/d/6fba393153c7dfcc",
+  "author": {
+    "name": "Si-Yan",
+    "url": "https://observablehq.com/@siyant"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
