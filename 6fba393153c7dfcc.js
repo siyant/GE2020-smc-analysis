@@ -1,4 +1,4 @@
-// https://observablehq.com/d/6fba393153c7dfcc@707
+// https://observablehq.com/@siyant/ge2020-smcs-results-analysis@719
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
@@ -451,6 +451,13 @@ Nothing very groundbreaking, but looks like good trends for our society's democr
 )});
   main.variable(observer()).define(["html"], function(html){return(
 html`<hr>`
+)});
+  main.variable(observer()).define(["md"], function(md){return(
+md`## Say hi
+
+Have any questions or comments? Contact me on [Twitter](https://twitter.com/siyanified) or email (hello@teosiyan.com)!
+
+Feel free to fork my [Observable notebook](https://observablehq.com/@siyant/ge2020-smcs-results-analysis) to do your own explorations :)`
 )});
   main.variable(observer()).define(["md"], function(md){return(
 md`## Setup
